@@ -1,0 +1,26 @@
+.offerbanner{
+    background: linear-gradient(45deg, rgb(255, 210, 184), rgb(255, 255, 255));
+    display: flex;
+}
+.bannermsg h2{
+    color: rgb(255, 129, 3);
+    font-weight: 700;
+    font-size: 50px;
+}
+.bannermsg p{
+    font-size: 50px;
+    font-weight: 500;
+}
+.bannermsg p span{
+    color:rgb(255, 129, 3)
+}
+.bannerbtn{
+    margin-left: 50px;
+    padding:10px;
+    border-radius: 20px;
+    background-color: orangered;
+    width: 110px;
+}
+.bannerbtn:hover {
+    cursor: pointer;
+} 

@@ -1,0 +1,77 @@
+.nav_bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -1px black;
+}
+.nav_logo{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav_logo img{
+    width: 50px;
+    height: 60px;
+}
+.nac_list{
+    display: flex;
+    text-decoration: none;
+    align-items: center ;
+    gap: 16px;
+    list-style: none;
+}
+.fotter_category{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center; 
+}
+.nac_list li{
+    cursor: pointer;
+    align-items: center;
+    justify-content: center; 
+}
+.nac_list li a{
+    text-decoration: none;
+    color: black;
+}
+.nac_list hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    background-color: orangered;
+    border-radius: 10px;
+}
+.nav_log_button button{
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    cursor: pointer;
+   
+}
+.nav_log_button img{
+    padding-top: 10px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.nav_log_button button a{
+    text-decoration: none;
+    color: black;
+}
+.nav_log_button button:active{
+    background: rgba(171, 172, 151, 0.707);
+}
+.nav_cort_count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-left: -15px;
+    margin-top: 5px;
+    background-color: brown;
+    border-radius: 10px;
+}
