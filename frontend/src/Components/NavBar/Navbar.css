@@ -43,6 +43,22 @@
     background-color: orangered;
     border-radius: 10px;
 }
+.navigate_nav_log{
+    display: flex;
+    height: 30px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: solid 1px black;
+}
+.navigate_nav_log:hover{
+    cursor: pointer;
+}
+.navigate_nav_log a{
+    text-decoration: none;
+    color: black;
+}
 .nav_log_button button{
     border-radius: 30px;
     width: fit-content;

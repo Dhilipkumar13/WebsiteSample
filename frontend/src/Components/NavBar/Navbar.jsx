@@ -21,11 +21,11 @@ export default function Navbar() {
             </ul>
         </div>
         <div className="nav_log_button" style={{display:"flex"}}>
-        <button ><Link to="/login">Login</Link></button>
-        <div style={{alignItems:"center"}}>
-        <img src={down} alt="not found" />
-        </div>        
-        <div className='nav_cort_count'>2</div>
+          <div className='navigate_nav_log'><Link to="/singup">Login</Link></div>
+          <div style={{alignItems:"center"}}>
+            <img src={down} alt="not found" />
+          </div>        
+          <div className='nav_cort_count'>2</div>
         </div>
     </div>
   )

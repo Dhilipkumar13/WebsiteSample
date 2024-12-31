@@ -27,6 +27,11 @@ export const ShopCategorie = (props) => {
           })
         }
       </div>
+      <div className="shopcategory">
+        <div>
+          Explore More
+        </div>
+      </div>
     </div>
   )
 }
