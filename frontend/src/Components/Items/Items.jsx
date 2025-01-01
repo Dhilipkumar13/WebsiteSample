@@ -1,9 +1,10 @@
 import React from 'react'
 import './Items.css'
-export const Items = ({image,name,old_price,new_price}) => {
+import { Link } from 'react-router'
+export const Items = ({id,image,name,old_price,new_price}) => {
   return (
     <div className='item'>
-        <img src={image} alt="Not Found" />
+        <Link to={`/product/${id}`} ><img src={image} alt="Not Found" /> </Link>
         <h3>{name}</h3>
         <div className="item_price">
             <div className="item_price_new">
