@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router';
 import shopicon from '../../img/shop icon.png'
-// import {download} from '../../img/download.png'
 import down from '../../img/download.png'
+import { ShopContext } from '../../Context/ShopContext';
 export default function Navbar() {
   const [menuBar,setMenuBar]=useState('shop');
   return (
@@ -25,7 +25,7 @@ export default function Navbar() {
           <div style={{alignItems:"center"}}>
             <img src={down} alt="not found" />
           </div>        
-          <div className='nav_cort_count'>2</div>
+          <div className='nav_cort_count'>0</div>
         </div>
     </div>
   )

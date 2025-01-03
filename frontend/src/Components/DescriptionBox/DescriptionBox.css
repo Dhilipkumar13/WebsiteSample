@@ -1,14 +1,21 @@
 .descriptionbox{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 20px 120px;
 }
-.descriptionbox hr{
-    width: 1200px;
-}
-.related_item{
+.description-navigator{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+}
+.description-navigator-left{
+    border: solid 1px rgb(91, 89, 89);    
+    padding: 10px;
+}
+.description-navigator-right{
+    border: solid 1px rgb(91, 89, 89);    
+    padding: 10px;
+}
+.descriptionbox-description{
+    border: solid 1px rgb(91, 89, 89);
+    padding: 20px;
+    background-color: aliceblue;
 }

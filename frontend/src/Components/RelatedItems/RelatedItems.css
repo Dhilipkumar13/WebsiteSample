@@ -1,0 +1,14 @@
+.relateditem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.relateditem hr{
+    width: 1200px;
+}
+.related_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

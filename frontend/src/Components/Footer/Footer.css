@@ -1,7 +1,8 @@
 .footer_f{
-    margin-top: 20px;
+    margin-top: 20px ;
     background:  linear-gradient(45deg, rgb(220, 190, 190), rgb(172, 172, 231));
     padding: 20px;
+
 }
 .footer{
     display: flex;
